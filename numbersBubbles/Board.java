@@ -249,6 +249,7 @@ public class Board extends JPanel implements Runnable,ActionListener  {
            {
                bubble.remove(0);
                score++;
+               key=0;  //fix the bug that cause two bubbles or more that have the same value to disappear from one correct press
            }
            if(!inGame)
                
