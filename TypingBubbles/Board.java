@@ -211,6 +211,7 @@ public class Board extends JPanel implements Runnable  {
         private void resetGame(){
             if(score>Hscore)
                 Hscore=score;
+            DELAY=11;
             newBubbleRate=44;
             newBubbleCounter=0;
             incrementCounter=0;
